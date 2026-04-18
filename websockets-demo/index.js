@@ -25,3 +25,5 @@ ws.on("connection", (socket, request) => {
     console.log("Client disconnected");
   });
 });
+
+console.log("Websocket Server is live on ws://localhost:8000");
